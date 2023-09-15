@@ -3,7 +3,15 @@ import Nav from "./Nav";
 import Habit from "./Habit";
 import "./App.css";
 
-const HABITS = ["run", "take vitamins", "workout", "drink water"];
+const HABITS = [
+  "run",
+  "take vitamins",
+  "workout",
+  "drink water",
+  "walk dog",
+  "Make dinner",
+  "Go to movies",
+];
 
 function App() {
   return (
