@@ -1,0 +1,47 @@
+.Habit {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+
+  /* create grid */
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.Habit:nth-of-type(1) {
+  background-color: #12b8ff;
+}
+.Habit:nth-of-type(2) {
+  background-color: #01dc03;
+}
+.Habit:nth-child(3) {
+  background-color: #ffe62d;
+}
+.Habit:nth-child(4) {
+  background-color: #fd4499;
+}
+.Habit:nth-child(5) {
+  background-color: #df19f8;
+}
+
+.Habit-left {
+  padding-left: 10px;
+  text-align: left;
+}
+.Habit-name {
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+.Habit-streak {
+  margin-top: 0px;
+  font-size: smaller;
+}
+.Habit-right {
+  padding-right: 30px;
+  text-align: right;
+}
+.Habit-data {
+  font-size: 1.5rem;
+}

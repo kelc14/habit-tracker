@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Habit from "./Habit";
 import "./App.css";
 
-const HABITS = ["run", "take vitamins"];
+const HABITS = ["run", "take vitamins", "workout", "drink water"];
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         ))}
       </div>
 
-      <button>+</button>
+      <button className="App-add">+</button>
     </div>
   );
 }
